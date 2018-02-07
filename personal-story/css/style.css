@@ -1,9 +1,21 @@
 body{
+
 	font-family: 'courier', sans-serif;
-	font-size: 42pt;
-	background-color: pink;
+	font-size: 20pt;
+	background-color: black;
 	color: white;
+	text-align: center;
 }
+
+.vertical {
+	transform: rotate(90deg);
+}
+
+.upsidedown {
+	transform: rotate(180deg);
+}
+
+.crosshair {cursor: crosshair; }
 
 a:link {
     color: red;
