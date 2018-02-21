@@ -1,8 +1,10 @@
 body {
     font-family: kabel;
     font-size: 14pt;
-    background-color: #240600;
-    color: #FFFDE7;
+    background-color: #f0f0e4;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -23,53 +25,121 @@ body {
     min-height: 100%;
 }
 
-/* Add some content at the bottom of the video/page */
+.tear{
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: auto;
+}
+
+#next{
+    font-family: persephone;
+    color: #4E180D;
+    font-size: 70pt;
+}
+
+
 .content {
     position: fixed;
-    top: 0px;
+    top: 0;
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.25);
     color: #4E180D;
     width: 100%;
-    padding: 0px;
 }
 
-a {
+.content2 {
+    position: fixed;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    color: #4E180D;
+    font-size: 160pt;
+    text-align: center;
+    font-family: persephone;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4E180D;
+}
+
+a:visited {
+    text-decoration: none;
     color: #4E180D;
 }
 
 .left {
- /*   top: 20px;
-    left: 10px;
-    right:100px;*/
-    padding: 50px;
+    margin: 20pt;
+    padding-right: 40%;
+    padding: 30vh 40% 30vh 0;
+    transition: 1.5s;
 }
 
 .right {
     text-align: right;
- /*   top: 20px;
-    left: 10px;
-    right:100px;*/
-    padding: 50px;
+    margin: 20pt;
+    padding-left: 40%;
+    padding: 30vh 30vh 40% 0;
+    transition: 1.5s;
 }
+
+.left:hover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.right:hover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.flower:hover {
+    background-image: url(../images/pick-flower.jpg);
+    color: black;
+}
+
+.field:hover {
+    background-image: url(../images/field.jpg);
+    color: #f0f0e4;
+}
+
+.temple:hover {
+    background-image: url(../images/temple.jpg);
+}
+
+.dead:hover {
+    background-image: url(../images/dead.jpg);
+    color: #f0f0e4;
+}
+
+.hole:hover {
+    background-image: url(../images/hole.jpg);
+    color: #f0f0e4;
+}
+
+.seeds:hover {
+    background-image: url(../images/seeds.png);
+}
+
+.rainbow:hover {
+    background-image: url(../images/rainbow.jpg);
+}
+
 
 .center{
     text-align: center;
+    padding-left: 15%;
+    padding-right:15%;
+    padding-top: 5%;
 }
 
-/* Style the button used to pause/play the video */
-/*#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+.credit{
+    text-align: right;
+    font-size: 8pt;
+    margin: 15px;
 }
-
-#myBtn:hover {
-    background: #ddd;
-    color: black;
-}*/
