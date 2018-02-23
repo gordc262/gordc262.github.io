@@ -75,7 +75,7 @@ a:visited {
     margin: 20pt;
     padding-right: 40%;
     padding: 30vh 40% 30vh 0;
-    transition: 1.5s;
+    transition: 2s;
 }
 
 .right {
@@ -83,7 +83,7 @@ a:visited {
     margin: 20pt;
     padding-left: 40%;
     padding: 30vh 30vh 40% 0;
-    transition: 1.5s;
+    transition: 2s;
 }
 
 .left:hover{
@@ -99,26 +99,25 @@ a:visited {
 }
 
 .flower:hover {
-    background-image: url(../images/pick-flower.jpg);
+    background-image: url(../images/pick-flower.png);
     color: black;
 }
 
 .field:hover {
-    background-image: url(../images/field.jpg);
-    color: #f0f0e4;
+    background-image: url(../images/field.png);
 }
 
 .temple:hover {
-    background-image: url(../images/temple.jpg);
+    background-image: url(../images/temple2.png);
+        color: #f0f0e4;
 }
 
 .dead:hover {
-    background-image: url(../images/dead.jpg);
-    color: #f0f0e4;
+    background-image: url(../images/dead.png);
 }
 
 .hole:hover {
-    background-image: url(../images/hole.jpg);
+    background-image: url(../images/hole.png);
     color: #f0f0e4;
 }
 
@@ -127,9 +126,47 @@ a:visited {
 }
 
 .rainbow:hover {
-    background-image: url(../images/rainbow.jpg);
+    background-image: url(../images/rainbow.png);
 }
 
+.cloak:hover {
+    background-image: url(../images/cloak.png);
+}
+
+.torch:hover {
+    background-image: url(../images/torch.png);
+    color: #f0f0e4;
+}
+
+.nightsun:hover {
+    background-image: url(../images/nightsun.png);
+    color: #f0f0e4;
+}
+
+.looking2:hover {
+    background-image: url(../images/looking2.png);
+    color: #f0f0e4;
+}
+
+.wing:hover {
+    background-image: url(../images/feathers.png);
+}
+
+.spring:hover {
+    background-image: url(../images/spring.png);
+}
+
+.relief:hover {
+    background-image: url(../images/relief.png);
+}
+
+.column:hover {
+    background-image: url(../images/column.jpg);
+}
+
+.hands:hover {
+    background-image: url(../images/hands.png);
+}
 
 .center{
     text-align: center;
