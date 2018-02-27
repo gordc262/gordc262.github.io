@@ -1,25 +1,44 @@
 body{
-	font-family: 'courier', sans-serif;
-	font-size: 42pt;
-	background-color: pink;
-	color: white;
+	font-family: akzidenz;
+	font-size: 30pt;
+	background-color: #eaf2ff;
+}
+
+@font-face {
+    font-family: akzidenz;
+    src: url(../critique/fonts/akzidenz.ttf);
 }
 
 a:link {
-    color: red;
+    text-decoration: none;
+    color: #1967d3;
 }
 
-/* visited link */
-a:visited {
-    color: green;
+a:visited{
+	color: #6b28c1;
 }
 
-/* mouse over link */
-a:hover {
-    color: hotpink;
+a:hover{
+	color: #d21853;
+	transition: 1s;
 }
 
-/* selected link */
-a:active {
-    color: hotpink;
+.center{
+	text-align: center;
+}
+
+.point{
+	margin: 0 20px 0 20px;
+}
+
+#box_2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eaf2ff;
+    padding: 10px;
+	font-size: 12pt;
+	color: black;
+	text-align: right;
 }

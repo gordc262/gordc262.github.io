@@ -1,5 +1,11 @@
 body {
-	font-family: courier;
+	font-family: akzidenz;
+	size: 18pt;
+}
+
+@font-face {
+    font-family: akzidenz;
+    src: url(../fonts/akzidenz.ttf);
 }
 
 iframe {
@@ -12,27 +18,39 @@ pre {
 	border: solid blue 1px;
 }
 
-/* max-width: 100%; will prevent an element from extending beyond the page boundaries */
 img {
 	max-width: 100%;
 }
 
-/* width: 100%; will force an element to adopt the width of the page boundaries */
 img.full-width {
 	width: 100%;
 }
 
 
-
-.home { 
-	font-size: 36px;
-}
-.project-01 {
-	background: pink;
+p{
+	padding: 10px;
+	margin: 0 30px 0 30px;
 }
 
-.project-02 {
+h1{
+	padding:20px;
+}
 
+.title{
+	font-size: 80pt;
+	text-align: center;
+}
+
+#scale{
+	text-align: right;
+}
+
+.right {
+	float: right;
+}
+
+.left{
+	margin-right: 25%;
 }
 
 .wrapper {
@@ -40,17 +58,32 @@ img.full-width {
 	max-width: 90%;
 }
 
-.header {
-	padding-bottom: 30px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #eaf2ff;
+  padding: 8px;
+}
+.grid-item {
+  background-color: #eaf2ff;
+  border: 5px solid white;
+  padding: 50px 0 50px 0;
+  font-size: 30px;
+  text-align: center;
 }
 
-.footer {
-	padding-top: 30px;
+a:link {
+    text-decoration: none;
+    color: #1967d3;
 }
 
-.left{
-	text-align: left;
-	font-size: 10pt;
+a:visited{
+	color: #6b28c1;
+}
+
+a:hover{
+	color: #d21853;
+	transition: 1s;
 }
 
 #box_2 {
@@ -58,9 +91,9 @@ img.full-width {
     bottom: 0;
     left: 0;
     right: 0;
-    background: pink;
+    background: #eaf2ff;
     padding: 10px;
-    font-family: 'courier', sans-serif;
 	font-size: 12pt;
 	color: black;
+	text-align: right;
 }
