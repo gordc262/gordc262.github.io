@@ -1,12 +1,12 @@
+@font-face {
+    font-family: akzidenz;
+    src: url(../critique/fonts/akzidenz.ttf);
+}
+
 body{
 	font-family: akzidenz, sans-serif;
 	font-size: 30pt;
 	background-color: #eaf2ff;
-}
-
-@font-face {
-    font-family: akzidenz;
-    src: url(../critique/fonts/akzidenz.ttf);
 }
 
 a:link {
