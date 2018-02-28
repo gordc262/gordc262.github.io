@@ -1,11 +1,11 @@
+@font-face {
+    font-family: akzidenz;
+    src: url(../fonts/akzidenz.ttf) format('truetype');
+}
+
 body {
 	font-family: akzidenz;
 	size: 18pt;
-}
-
-@font-face {
-    font-family: akzidenz;
-    src: url(../fonts/akzidenz.ttf);
 }
 
 iframe {
