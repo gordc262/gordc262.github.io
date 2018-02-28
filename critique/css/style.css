@@ -30,10 +30,16 @@ img.full-width {
 p{
 	padding: 10px;
 	margin: 0 30px 0 30px;
+	font-family: akzidenz;
 }
 
 h1{
+	font-family: akzidenz;
 	padding:20px;
+}
+
+div{
+	font-family: akzidenz;
 }
 
 .title{
