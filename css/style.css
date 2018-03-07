@@ -1,6 +1,6 @@
 @font-face {
     font-family: akzidenz;
-    src: url(../critique/css/akzidenz.ttf);
+    src: url(akzidenz.ttf) format('truetype');
 }
 
 body{
