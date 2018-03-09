@@ -1,0 +1,17 @@
+@font-face {
+    font-family: akzidenz;
+    src: url(akzidenz.ttf) format('truetype');
+}
+
+body{
+	font-family: akzidenz;
+}
+
+.circle{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}

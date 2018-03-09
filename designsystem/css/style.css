@@ -42,7 +42,7 @@ body{
     width: 20%;
     float: left;
     padding: 2.5%;
-    	opacity: 0;
+    opacity: 0;
 	transition: opacity 3s ease-in-out;
 	-moz-transition: opacity 3s ease-in-out;
     -webkit-transition: opacity 3s ease-in-out;
