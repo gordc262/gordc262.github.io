@@ -1,0 +1,72 @@
+@font-face {
+    font-family: yatra;
+    src: url(yatra.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: avantgarde-xlt;
+    src: url(avantgarde-xlt.otf) format('opentype');
+}
+
+@font-face {
+    font-family: avantgarde-std;
+    src: url(avantgarde-std.otf) format('opentype');
+}
+
+body{
+	background-color:black;
+	color: #8e8e8e;
+	font-family: helvetica;
+}
+
+.name{
+	font-family: yatra;
+	font-size: 100pt;
+	text-align: center;
+	margin: 17% 0 17% 0;
+	padding: 0;
+	opacity: 0;
+	transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+}
+
+.name:hover{
+	opacity: 1.0;
+	transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+.column {
+    width: 20%;
+    float: left;
+    padding: 2.5%;
+    	opacity: 0;
+	transition: opacity 3s ease-in-out;
+	-moz-transition: opacity 3s ease-in-out;
+    -webkit-transition: opacity 3s ease-in-out;
+}
+
+h2{
+	text-align: center;
+	font-family: yatra;
+}
+
+.question {
+	font-weight: bold;
+	font-family: avantgarde-std;
+	text-align: left;
+}
+
+.answer{
+	text-align: right;
+	font-family: avantgarde-xlt;
+}
+
+.column:hover{
+	opacity: 1.0;
+	transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
