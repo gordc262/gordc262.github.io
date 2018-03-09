@@ -11,16 +11,20 @@ body{
 	overflow: hidden;
 }
 
+body:active{
+	background-color: #cc000d;
+}
+
+:active{
+	background-color: #cc000d;
+}
+
+
 #head{
 	text-align: center;
 	font-size: 32pt;
 	color: #8e8e8e;
 }
-
-body:active{
-	background-color: #cc000d;
-}
-
 
 #a{
 	background-color: #8e8e8e;
@@ -57,8 +61,7 @@ body:active{
 	opacity: 1.0;
 	transition: opacity 5s ease-in-out;
 	-moz-transition: opacity 5s ease-in-out;
-    -webkit-transition: opacity 5s ease-in-out;
-    	
+    -webkit-transition: opacity 5s ease-in-out;	
 }
 
 #b:hover{
