@@ -69,20 +69,8 @@ h2{
     -webkit-transition: opacity .5s ease-in-out;
 }
 
-.ball{
-	background-color: #8e8e8e;
-	width: 20px;
-	height: 20px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	position: absolute;
-	margin-top: 0px;
-	margin-left: 10px;
-	float: left;
-	opacity: 1.0;
-	transition: opacity 5s ease-in-out;
-	-moz-transition: opacity 5s ease-in-out;
-    -webkit-transition: opacity 5s ease-in-out;
-
+a{
+	text-decoration: none;
+	color: #8e8e8e;
+	font-family: avantgarde-xlt;
 }

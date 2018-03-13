@@ -1,0 +1,39 @@
+@font-face {
+    font-family: yatra;
+    src: url(yatra.ttf) format('truetype');
+}
+
+body{
+	font-family: yatra;
+	background-color: black;
+	cursor: none;
+	font-color: #8e8e8e;
+	overflow: hidden;
+}
+
+.breathe {
+    width: 100px;
+    height: 100px;
+    background: #8e8e8e;
+    opacity: 1.0;
+    transition: width 5s ease-in-out;
+    text-align: center;
+    margin-top: 300px;
+    position: absolute;
+    z-index: -1;
+}
+
+.breathe:hover {
+    width: 100%;
+    transition: width 20s ease-in-out;
+}
+
+#end{
+	width: 100px;
+	height: 100px;
+	margin-left: 98%;
+	margin-top: 300px;
+	background-color: red;
+	position: absolute;
+
+}
