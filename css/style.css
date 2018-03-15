@@ -23,12 +23,18 @@ a:hover{
 	transition: 1s;
 }
 
+div {
+    column-count: 2;
+    column-gap: 300px;
+    padding: 0 100px 0 200px;
+}
+
 .center{
 	text-align: center;
 }
 
 .point{
-	margin: 0 20px 0 20px;
+	margin: 0 0 20px 0;
 }
 
 #box_2 {
