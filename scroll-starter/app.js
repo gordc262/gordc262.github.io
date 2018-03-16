@@ -91,12 +91,12 @@
     $(event.target).addClass('run-animation');
     var buttonPress = anime({
        targets: '.drip',
-       translateY: 500,
+       translateY: 700,
        autoplay: false,
        duration: 3000,
        easing: 'easeInQuart',    
        delay: function(el, i, l) {
-       return i * 100;
+       return i * 300;
      }
     });
         $('button').click(function(e) {
