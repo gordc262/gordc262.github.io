@@ -114,7 +114,7 @@
       direction: 'alternate',
       easing: 'easeInQuart',
       width: {
-        value: '+=11',
+        value: '+=15',
         duration: 300,
         easing: 'easeInSine'
         },
