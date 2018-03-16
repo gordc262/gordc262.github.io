@@ -96,7 +96,7 @@
        duration: 3000,
        easing: 'easeInQuart',    
        delay: function(el, i, l) {
-       return i * 200;
+       return i * 100;
      }
     });
         $('button').click(function(e) {
@@ -108,15 +108,15 @@
   $('#section-4').one('inview', function(event, isInView) {
     $(event.target).addClass('run-animation');
     var cssSelector = anime({
-      targets: '#cssSelector .el',
+      targets: '#cssSelector .basketball',
       translateY: 300,
       loop: true,
       direction: 'alternate',
-      easing: 'easeOutQuart',
+      easing: 'easeInQuart',
       width: {
-        value: '*=1.11',
-        duration: 100,
-        easing: 'easeInOutSine'
+        value: '+=11',
+        duration: 300,
+        easing: 'easeInSine'
         },
       duration: 300
     });

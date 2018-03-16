@@ -126,7 +126,7 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 4px;
   -webkit-appearance: none;
 }
-.button:focus {
+button:focus {
   outline: 0;
 }
 
@@ -165,7 +165,7 @@ button{
 #drip1{
   background-color: white;
   width: 32px;
-  height: 90px;
+  height: 70px;
   border-radius: 50px;
   margin-top: 0px;
   margin-left: 70px;
@@ -177,7 +177,7 @@ button{
 #drip2{
   background-color: white;
   width: 32px;
-  height: 130px;
+  height: 140px;
   border-radius: 50px;
   margin-top: 0px;
   margin-left: 40px;
@@ -229,12 +229,11 @@ button{
   z-index: -1;
 }
 
-.el{
+.basketball{
   width: 300px;
   height: 300px;
   border-radius: 500px;
-  background-color: white;
-  
+  background-color: rgb(254, 159, 53);  
   background-image: url(images/basketball.png);
   background-size: 105%;
   background-position: center;
