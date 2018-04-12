@@ -1,0 +1,24 @@
+body{
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-size: 25pt;
+}
+
+input[type=text]{
+	width: 75%;
+	height: 170px;
+	font-size: 50pt;
+}
+
+input[type=text]:focus {
+    background-color: #effeff;
+}
+
+button{
+	background-color: lightblue;
+	width: 170px;
+	height: 170px;
+	border-radius: 10px;
+	font-size: 50pt;
+}
+
