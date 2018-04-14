@@ -33,4 +33,59 @@
 
 	  });
 
+	$( "#project1" ).hover(
+	  function() {
+	  	$('#image1').addClass('animated fadeInUp');
+	  }, function() {
+	  	$('#image1').removeClass('animated fadeInUp');
+	  	$('#image1').addClass('animated fadeOutDown');
+	  	setTimeout(function(){$('#image1').removeClass('animated fadeOutDown')}, 200);
+	  }
+	);
+
+
+ 
+	$( "#project2" ).hover(
+	  function() {
+	  	$('#image2').addClass('animated fadeInUp');
+	  }, function() {
+	  	$('#image2').removeClass('animated fadeInUp');
+	  }
+	);
+
+
+	$( "#project3" ).hover(
+	  function() {
+	  	$('#image3').addClass('animated fadeInUp');
+	  }, function() {
+	  	$('#image3').removeClass('animated fadeInUp');
+	  }
+	);
+
+
+	$( "#project4" ).hover(
+	  function() {
+	  	$('#image4').addClass('animated fadeInUp');
+	  }, function() {
+	  	$('#image4').removeClass('animated fadeInUp');
+	  }
+	);
+
+
+	$( "#project5" ).hover(
+	  function() {
+	  	$('#image5').addClass('animated fadeInUp');
+	  }, function() {
+	  	$('#image5').removeClass('animated fadeInUp');
+	  }
+	);
+
+
+	$( "#project6" ).hover(
+	  function() {
+	  	$('#image6').addClass('animated fadeInUp');
+	  }, function() {
+	  	$('#image6').removeClass('animated fadeInUp');
+	  }
+	);
 	});
