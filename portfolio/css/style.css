@@ -48,6 +48,16 @@ a:hover:before {
   transform: scaleX(1);
 }
 
+footer{
+  font-size: 10pt;
+  position: fixed;
+  -webkit-transform: translate(100px, 45px);
+  -moz-transform: translate(100px, 45px);
+  -ms-transform: translate(100px, 45px);
+  -o-transform: translate(100px, 45px);
+  transform: translate(150px, 600px);
+}
+
 /*--------------Home page------------------------------*/
 
 #rectangle{
@@ -62,10 +72,10 @@ a:hover:before {
 
 .head{
 	position: relative;
-  -webkit-transform: translate(-225px, 50px);
-  -moz-transform: translate(-225px, 50px);
-  -ms-transform: translate(-225px, 50px);
-  -o-transform: translate(-225px, 50px);
+  -webkit-transform: translate(100px, 45px);
+  -moz-transform: translate(100px, 45px);
+  -ms-transform: translate(100px, 45px);
+  -o-transform: translate(100px, 45px);
   transform: translate(100px, 45px);
 
 }
@@ -250,4 +260,3 @@ a:hover:before {
   margin-left: 600px;
   margin-top: -400px;
 }
-
