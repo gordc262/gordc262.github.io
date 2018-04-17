@@ -51,6 +51,7 @@ a:hover:before {
 footer{
   font-size: 10pt;
   position: fixed;
+  opacity: 0.6;
   -webkit-transform: translate(100px, 45px);
   -moz-transform: translate(100px, 45px);
   -ms-transform: translate(100px, 45px);
