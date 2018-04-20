@@ -174,7 +174,7 @@ footer{
 
 #abouttext{
   position: relative;
-	width: 750px;
+	width: 900px;
 	height: 500px;
 	font-size: 20pt;
 	float: left;
@@ -200,18 +200,73 @@ footer{
 }
 
 .projecttext{
-  float: left;
-  height: 200px;
+  float: right;
+  height: 300px;
   width: 500px;
   font-size: 20pt;
   line-height: 150%;
+  padding-right: 10%;
+}
+
+.projecttext1{
+  float: left;
+  height: 300px;
+  width: 500px;
+  font-size: 20pt;
+  line-height: 150%;
+  padding-left: 10%;
 }
 
 .projectimage{
-  padding-left: 130px;
+  padding-left: 8%;
   padding-bottom: 50px;
   padding-right: 25px; 
   float: left;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+ 
+.projectimage1{
+  padding-left: 130px;
+  padding-bottom: 50px;
+  padding-right: 8%; 
+  float: right;
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/*--------------chimique-------------*/
+
+.projecttextch{
+  width: 40%;
+  float: right;
+  height: 300px;
+  font-size: 20pt;
+  line-height: 150%;
+  padding-right: 10%;
+}
+
+.projectimagetall{
+  margin-left: 8%;
+  margin-bottom: 50px;
+  margin-right: 25px; 
+  float: left;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+#backer{
+  background-color: #C8E3F6;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: -3%;
+  height: 115%;
+  z-index: -1;
+  position: absolute;
 }
  
 /*-----------all images must be 700x400-----------*/
