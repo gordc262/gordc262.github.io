@@ -67,33 +67,25 @@ footer{
 	left: 10%;
 	top: 10%;
 	height: 550px;
-	width: 1200px;
+	width: 80%;
 	z-index: -1;
 }
 
-.head{
-	position: relative;
-  -webkit-transform: translate(100px, 45px);
-  -moz-transform: translate(100px, 45px);
-  -ms-transform: translate(100px, 45px);
-  -o-transform: translate(100px, 45px);
-  transform: translate(100px, 45px);
-
-}
 
 .heading{
-	padding: 45px 100px 0 100px;
+  position: relative;
+	padding: 45px 5% 0 12%;
 	font-size: 30pt;
 	float: left;
 }
 
 
 #name{
-  width: 600px;
+  width: 770px;
   font-size: 80pt;
   position: absolute;
-  margin-left: 25%;
-  margin-top: 370px;
+  margin-left: 40%;
+  margin-top: 470px;
 }
 
 /*--------------eyes----------------*/
@@ -160,9 +152,9 @@ footer{
 
 #square{
 	background-color: #C8E3F6;
-  position: absolute;
-	height:500px;
-	width: 500px;
+  position: fixed;
+	height:60%;
+	width: 30%;
 	margin-left: 100px;
   margin-top: 160px;
 	z-index: -1;
@@ -171,7 +163,7 @@ footer{
 
 #abouttext{
   position: relative;
-	width: 900px;
+	width: 40%;
 	height: 500px;
 	font-size: 20pt;
 	float: left;
@@ -183,7 +175,8 @@ footer{
 /*-----------works-----------*/
 
 #list{
-  padding: 200px;
+  padding-left: 12%;
+  padding-top: 150px;
   font-size: 20pt;
   width: 400px;
 }
@@ -222,6 +215,7 @@ footer{
   width: 600px;
   height: 400px;
   object-fit: cover;
+  
 }
  
 .projectimage1{
@@ -235,37 +229,6 @@ footer{
 }
 
 
-/*--------------chimique-------------*/
-
-.projecttextch{
-  width: 40%;
-  float: right;
-  height: 300px;
-  font-size: 20pt;
-  line-height: 150%;
-  padding-right: 10%;
-}
-
-.projectimagetall{
-  margin-left: 8%;
-  margin-bottom: 50px;
-  margin-right: 25px; 
-  float: left;
-  width: 400px;
-  height: auto;
-  object-fit: cover;
-}
-
-#backer{
-  background-color: #C8E3F6;
-  width: 94%;
-  margin-left: 3%;
-  margin-top: -3%;
-  height: 115%;
-  z-index: -1;
-  position: absolute;
-}
- 
 /*-----------all images must be 700x400-----------*/
 
 #image1{
@@ -273,7 +236,7 @@ footer{
   height: 400px;
   opacity: 0;  
   margin-left: 600px;
-  margin-top: -600px;
+  margin-top: -400px;
 }
 
 #image2{
@@ -315,3 +278,35 @@ footer{
   margin-left: 600px;
   margin-top: -400px;
 }
+
+/*--------------chimique-------------*/
+
+.projecttextch{
+  width: 40%;
+  float: right;
+  height: 300px;
+  font-size: 20pt;
+  line-height: 150%;
+  padding-right: 10%;
+}
+
+.projectimagetall{
+  margin-left: 8%;
+  margin-bottom: 50px;
+  margin-right: 25px; 
+  float: left;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+#backer{
+  background-color: #C8E3F6;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: -3%;
+  height: 115%;
+  z-index: -1;
+  position: absolute;
+}
+ 
