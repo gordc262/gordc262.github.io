@@ -63,7 +63,7 @@ footer{
 
 #rectangle{
 	background-color: #C8E3F6;
-	position: fixed;
+	position: absolute;
 	left: 10%;
 	top: 10%;
 	height: 550px;
@@ -89,14 +89,11 @@ footer{
 
 
 #name{
+  width: 600px;
   font-size: 80pt;
-  position: fixed;
-  padding: 100px;
-  -webkit-transform: translate(700px, 370px);
-  -moz-transform: translate(700px, 370px);
-  -ms-transform: translate(700px, 370px);
-  -o-transform: translate(700px, 370px);
-  transform: translate(700px, 370px);
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 370px;
 }
 
 /*--------------eyes----------------*/
