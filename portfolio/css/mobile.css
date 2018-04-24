@@ -1,0 +1,46 @@
+@font-face {
+    font-family: avantgarde-std;
+    src: url(avantgarde-std.otf) format('opentype');
+}
+
+body{
+	font-family: avantgarde-std, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+#squaremobile{
+	background-color: #C8E3F6;
+	position: absolute;
+	z-index: -1;
+	left: 10%;
+	top: 20%;
+	height: 800px;
+	width: 80%;
+}
+
+#name{
+  width: 770px;
+  font-size: 80pt;
+  position: inherit;
+  margin-left: 10%;
+  margin-top: -80px;
+}
+
+.nav{
+    position: relative;
+    margin-top: 1150px;
+	padding: 0 5% 0 5%;
+	font-size: 40pt;
+	float: left;
+}
