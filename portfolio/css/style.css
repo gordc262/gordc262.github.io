@@ -48,16 +48,6 @@ a:hover:before {
   transform: scaleX(1);
 }
 
-footer{
-  font-size: 10pt;
-  position: fixed;
-  opacity: 0.6;
-  -webkit-transform: translate(100px, 45px);
-  -moz-transform: translate(100px, 45px);
-  -ms-transform: translate(100px, 45px);
-  -o-transform: translate(100px, 45px);
-  transform: translate(150px, 600px);
-}
 
 /*--------------Home page------------------------------*/
 
@@ -212,6 +202,10 @@ footer{
   padding-bottom: 50px;
   padding-right: 25px; 
   float: left;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+
 }
  
 /*-----------all images must be 700x400-----------*/
