@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: avantgarde-std, sans-serif;
+  font-family: avantgarde-std, sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -14,8 +14,8 @@ body{
 }
 
 a{
-  color: black;
-  text-decoration: none;
+  color: black;/*
+  text-decoration: none;*/
   position: relative;
 }
 
@@ -39,8 +39,17 @@ a{
 
 .nav{
     position: relative;
-    margin-top: 1150px;
-	padding: 0 5% 0 5%;
-	font-size: 40pt;
+    margin-top: 125%;
+	margin-left: 19%;
+	font-size: 60pt;
 	float: left;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   font-size: 20pt;
 }
