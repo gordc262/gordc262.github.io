@@ -258,6 +258,7 @@ a:hover:before {
   line-height: 150%;
   padding-right: 10%;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .lgbttext1{
@@ -268,6 +269,7 @@ a:hover:before {
   line-height: 150%;
   padding-left: 10%;
   margin-top: 20px;
+  text-align: justify;
 }
 
 /*----------------ethos------------*/
