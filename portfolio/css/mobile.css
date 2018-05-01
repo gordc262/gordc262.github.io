@@ -97,3 +97,63 @@ h1{
   text-align: justify;
   line-height: 150%;
 }
+
+/*--------------eyes----------------*/
+
+.eyes {
+  position: relative;
+  top: 200px;
+  left: 50%;
+  width: 400px;
+  height: 80px;
+  -webkit-transform: translate(-225px, 50px);
+  -moz-transform: translate(-225px, 50px);
+  -ms-transform: translate(-225px, 50px);
+  -o-transform: translate(-225px, 50px);
+  transform: translate(-225px, 50px);
+}
+
+.eye {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  border-radius: 50% 50% 50% 50%;
+  background-color: white;
+  overflow: hidden;
+  border: solid #000 15px;
+}
+
+#eye1 {
+  left: 50px;
+}
+
+#eye2 {
+  right: 0;
+}
+
+.iris {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 40px;
+  left: 60px;
+  -webkit-transform: translate(-40px, -40px);
+  -moz-transform: translate(-40px, -40px);
+  -ms-transform: translate(-40px, -40px);
+  -o-transform: translate(-40px, -40px);
+  transform: translate(-40px, -40px);
+}
+
+#bridge{
+  background-color: black;
+  height: 15px;
+  width: 70px;
+  -webkit-transform: translate(190px, 70px);
+  -moz-transform: translate(190px, 70px);
+  -ms-transform: translate(190px, 70px);
+  -o-transform: translate(190px, 70px);
+  transform: translate(190px, 70px);
+}
