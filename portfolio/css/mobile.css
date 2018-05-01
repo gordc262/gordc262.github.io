@@ -54,3 +54,37 @@ a{
    padding: 20px;
    opacity: 0.6;
 }
+
+.projects{
+  font-size: 60pt;
+  text-align: center;
+
+}
+
+#headicon{
+  margin-left: 10%;
+}
+
+.preview{
+  width: 70%;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 60pt;
+}
+
+.workimage{
+  padding: 5% 10% 5% 10%;
+    width: 80%;
+  height: auto;
+}
+
+.worktext{
+  font-size: 30pt;
+  padding: 0 10% 0 10%;
+  width: 80%;
+  height: auto;
+  text-align: justify;
+}
