@@ -1,0 +1,60 @@
+@font-face {
+    font-family: grasshopper;
+    src: url(Grasshopper.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: alegreya;
+    src: url(Alegreya-Regular.ttf) format('truetype');
+}
+
+body{
+	font-size: 20px;
+	font-family: alegreya, serif;
+	background-image: url(../images/map.png);
+	background-size: cover;
+	background-position: center;
+
+}
+
+h1{
+	font-family: grasshopper;
+	text-align: center;
+	font-size: 80pt;
+}
+
+h2{
+	text-align: center;
+
+}
+
+.question{
+	font-weight: 600;
+	padding-left: 100px;
+	padding-bottom: 10px;
+}
+.answers {
+  margin-bottom: 30px;
+	padding-left: 100px;
+}
+.answers label{
+  display: block;
+	padding-left: 100px;
+}
+#submit{
+	align-items: center;
+	font-family: alegreya, serif;
+	font-size: 20px;
+	background-color: #eaa79e;
+	color: black;
+	border: 0px;
+	border-radius: 10px;
+	padding: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+}
+#submit:hover{
+	background-color: #ea8a76;
+}
