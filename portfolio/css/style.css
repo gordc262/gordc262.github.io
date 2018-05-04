@@ -446,7 +446,7 @@ i {
 .slider {
   padding-top: 120px;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .slide_viewer {
@@ -523,36 +523,30 @@ a.slide_btn {
 .directional_nav {
   height: 340px;
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 1000px;
   position: relative;
-  top: -340px;
+  top: -430px;
 }
 
 .previous_btn {
   bottom: 0;
-  left: 100px;
+  left: -27%;
   margin: auto;
   position: absolute;
-  top: 0;
+  top: 0
 }
 
 .next_btn {
   bottom: 0;
   margin: auto;
   position: absolute;
-  right: 100px;
+  right: -27%;
   top: 0;
 }
 
 .previous_btn, .next_btn {
   cursor: pointer;
   height: 65px;
-  opacity: 0.5;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
   width: 65px;
 }
 
