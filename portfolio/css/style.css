@@ -505,7 +505,7 @@ i {
 }
 
 a.slide_btn {
-  color: #474544;
+  color: #C8E3F6;
   font-size: 42px;
   margin: 0 0.175em;
   -webkit-transition: all 0.4s ease-in-out;
@@ -516,42 +516,37 @@ a.slide_btn {
 }
 
 .slide_btn.active, .slide_btn:hover {
-  color: #428CC6;
+  color: black;
   cursor: pointer;
 }
 
 .directional_nav {
   height: 340px;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-  max-width: 1000px;
-  position: relative;
-  top: -430px;
+  position: absolute;
+  top: 430px;
 }
 
 .previous_btn {
-  bottom: 0;
-  left: -27%;
+  left: 0;
   margin: auto;
   position: absolute;
-  top: 0
+  top: -70px;
 }
 
 .next_btn {
-  bottom: 0;
   margin: auto;
   position: absolute;
-  right: -27%;
-  top: 0;
+  right: 0;
+  top: -70px;
 }
 
 .previous_btn, .next_btn {
   cursor: pointer;
   height: 65px;
   width: 65px;
-}
-
-.previous_btn:hover, .next_btn:hover {
-  opacity: 1;
 }
 
 @media only screen and (max-width: 767px) {
