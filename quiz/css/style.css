@@ -1,6 +1,6 @@
 @font-face {
-    font-family: grasshopper;
-    src: url(Grasshopper.ttf) format('truetype');
+    font-family: blair;
+    src: url(blair.ttf) format('truetype');
 }
 
 @font-face {
@@ -9,23 +9,31 @@
 }
 
 body{
-	font-size: 20px;
+	font-size: 22px;
 	font-family: alegreya, serif;
-	background-image: url(../images/map.png);
+	background-color: #fff9f4;
 	background-size: cover;
 	background-position: center;
-
 }
 
 h1{
-	font-family: grasshopper;
+	font-family: blair;
 	text-align: center;
 	font-size: 80pt;
+	line-height: 90%;
+}
+
+#title{
+	font-family: blair;
+	text-align: center;
+}
+
+#subtitle{
+	display: hidden;
 }
 
 h2{
 	text-align: center;
-
 }
 
 .question{
@@ -48,7 +56,7 @@ h2{
 	background-color: #eaa79e;
 	color: black;
 	border: 0px;
-	border-radius: 10px;
+	border-radius: 20px;
 	padding: 20px;
 	cursor: pointer;
 	margin-top: 20px;
@@ -57,4 +65,11 @@ h2{
 }
 #submit:hover{
 	background-color: #ea8a76;
+}
+
+button:focus {outline:0;}
+
+#results{
+	text-align: center;
+	font-size: 60pt;
 }

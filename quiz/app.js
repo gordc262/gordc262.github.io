@@ -128,10 +128,28 @@
         c: "Hudson Park River"
       },
       correctAnswer: "b"
-    },
+    }
   ];
 
   buildQuiz();
 
   submitButton.addEventListener("click", showResults);
 })();
+
+
+$( "#title" ).hover(
+    function() {
+      $('#title').addClass('animated rubberBand');
+    }, function() {
+      $('#image1').removeClass('animated rubberBand');
+      setTimeout(function(){$('#image1').removeClass('animated fadeOutDown')}, 200);
+    }
+  );
+
+
+  $( "#submit" ).click(
+    function() {
+      $('#submit').addClass('animated pulse');
+    }
+  );
+
